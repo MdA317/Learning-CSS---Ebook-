@@ -1,9 +1,65 @@
 /* CLASS SELECTOR */
 
-.h1-css {
+/* .h1-css {
   color: red;
 }
 
 .h1-html {
   color: orange;
+}
+
+.li1-css {
+  color: aquamarine;
+}
+.li2-css {
+  color: bisque;
+}
+.li3-css {
+  color: blue;
+}
+
+.li1-html {
+  color: darkcyan;
+}
+.li2-html {
+  color: red;
+}
+.li3-html {
+  color: darkgoldenrod;
+} */
+
+/* SELECTOR ID */
+
+/* #h1-minuman {
+  color: red;
+}
+
+#li1-minuman {
+  color: salmon;
+}
+#li2-minuman {
+  color: pink;
+}
+#li3-minuman {
+  color: coral;
+}
+#li4-minuman {
+  color: goldenrod;
+} */
+
+/* SELECTOR ATRIBUTE */
+
+/* [href] {
+  color: chocolate;
+} */
+/* [title="kota bandung"],
+[title="kota makassar"] {
+  color: green;
+} */
+
+/* GROUP SELECTOR */
+.h1-css,
+#h2-header,
+[title="paragraf"] {
+  color: blue;
 }
