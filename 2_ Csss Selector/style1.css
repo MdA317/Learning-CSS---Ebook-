@@ -58,8 +58,20 @@
 } */
 
 /* GROUP SELECTOR */
-.h1-css,
+/* .h1-css,
 #h2-header,
 [title="paragraf"] {
   color: blue;
+} */
+
+/* Descendas Selector */
+p em {
+  color: red;
+}
+
+p strong {
+  color: pink;
+}
+div h1 {
+  color: salmon;
 }
