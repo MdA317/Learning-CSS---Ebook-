@@ -102,10 +102,16 @@ div .dua {
   background-color: yellow;
 } */
 
-div h2 {
+/* div h2 {
   color: salmon;
 }
 
 div + h2 {
   color: goldenrod;
-}
+} */
+
+/* || GENERAL SIBLING SELECTOR || */
+
+/* h2 ~ p {
+  color: goldenrod;
+} */
