@@ -162,7 +162,7 @@ input:checked {
 } */
 
 /* *||STRUCKTURAL PSEDUO CLASS SELECTORS||* */
-ul {
+/* ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -175,12 +175,54 @@ li {
   font-size: 10px;
   margin-left: 50px;
   line-height: 30px;
-}
+} */
 
-li:first-child {
+/* first-child dan last-child */
+/* li:first-child {
   background-color: magenta;
 }
 
 li:last-child {
   background-color: aqua;
+} */
+
+/* p:first-child {
+  color: antiquewhite;
+} */
+
+/* first-of-type dan last-of-type */
+/* p:first-of-type {
+  color: orangered;
+} */
+
+/* Pseudo Selector :nth-child() dan :nth-last-child() */
+/* li:nth-child(2) {
+  background-color: antiquewhite;
 }
+li:nth-child(9) {
+  background-color: aqua;
+}
+li:nth-last-child(even) {
+  background-color: beige;
+}
+li:nth-last-child(odd) {
+  background-color: salmon;
+} */
+
+/* :nth-of-type() dan :nth-last-of-type() */
+/* p:nth-of-type(3) {
+  color: rebeccapurple;
+}
+
+p:nth-of-type(5) {
+  color: blue;
+}
+
+p:nth-of-type(7) {
+  color: salmon;
+} */
+
+/* || not() || */
+/* p:not(.tes) {
+  color: orange;
+} */
