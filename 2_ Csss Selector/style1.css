@@ -121,9 +121,26 @@ div + h2 {
 /* || Dynamic Pseudo Class Selector || */
 /* || LINK || */
 
-:link {
+/* :link {
   color: black;
 }
 :visited {
-  color: aquamarine;
+  color: navajowhite;
 }
+
+h2:hover {
+  color: darkcyan;
+}
+
+a:hover {
+  color: silver;
+}
+
+a:active {
+  color: yellow;
+} */
+
+/* input:focus {
+  border: solid goldenrod 3px;
+  outline: none;
+} */

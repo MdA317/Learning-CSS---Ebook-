@@ -211,15 +211,17 @@
     <!-- Adalah selector CSS untuk mencari element HTML yang tidak terlihat secara langsung (tidak ada didalam struktur DOM). dan hal unik dengan pseudo class selector adalah penulisaannya diawali dengan tanda titik tua " : " seperti :hover :active atau :visited  -->
 
     <!-- || DYNAMIC PSEUDO CLASS SELECTOR || -->
+    <!-- Perlu diingat terkait penggunaan Dynamic pseudo class selector adalah Posisi penulisan selector mempengaruhi efek yg tampil -->
+    <!-- Penulisan dynmaic pseduo clas selector haruslah mulai dari :link -> :visited -> :hover -> dan -> :active -->
     <!-- Jenis Dynamic pseudo class :
         :link     = Akan mencari seluruh link <a> di dalam HTML
         :visited = Dipakai untuk mencari sebuah link yang telah dikunjungi 
-        :hover
-        :active
-        :target
-        :focus
+        :hover  = Selector ini akan aktif ketika cursor mouse berada diatas sebuah element
+        :active = ketika kita men-klik tombol mouse, Agar bisa melihat efeknya, tahan tombol mouse saat men-klik link 
+        :target = akan aktif ketika kita mengakses sebuah "anchor link", yakni internal link pada sebuah halaman
+        :focus  = focus lebih cocok untuk element form yg butuh banyak interaksi
     -->
-    <h2>Kota Kota di Indonesia</h2>
+    <!-- <h2>Kota Kota di Indonesia</h2>
     <a id="daftarkota"> Daftar Kota</a>
     <ul>
       <li>
@@ -240,6 +242,11 @@
       <li>
         <a href="https://id.wikipedia.org/wiki/Kota_Makassar">Kota Makassar</a>
       </li>
-    </ul>
+    </ul> -->
+
+    <!-- <form action="register.php" method="get">
+      <p>Nama : <input type="text" name="nama" /></p>
+      <p>Umur : <input type="text" name="umur" /></p>
+    </form> -->
   </body>
 </html>
