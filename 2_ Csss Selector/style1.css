@@ -144,3 +144,19 @@ a:active {
   border: solid goldenrod 3px;
   outline: none;
 } */
+
+/* UI ELEMENT STATE PSEUDO CLASS SELECTOR */
+/* input:focus {
+  border: solid pink 3px;
+  outline: none;
+} */
+
+input:disabled {
+  border: solid green 3px;
+}
+input:enabled {
+  border: solid yellow 3px;
+}
+input:checked {
+  margin-left: 100px;
+}
