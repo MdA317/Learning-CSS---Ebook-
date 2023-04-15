@@ -151,7 +151,7 @@ a:active {
   outline: none;
 } */
 
-input:disabled {
+/* input:disabled {
   border: solid green 3px;
 }
 input:enabled {
@@ -159,4 +159,28 @@ input:enabled {
 }
 input:checked {
   margin-left: 100px;
+} */
+
+/* *||STRUCKTURAL PSEDUO CLASS SELECTORS||* */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  width: 150px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 10px;
+  margin-left: 50px;
+  line-height: 30px;
+}
+
+li:first-child {
+  background-color: magenta;
+}
+
+li:last-child {
+  background-color: aqua;
 }
