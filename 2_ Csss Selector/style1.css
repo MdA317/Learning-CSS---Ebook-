@@ -65,7 +65,7 @@
 } */
 
 /* Descendas Selector */
-p em {
+/* p em {
   color: red;
 }
 
@@ -74,4 +74,19 @@ p strong {
 }
 div h1 {
   color: salmon;
+}
+
+div .satu {
+  color: brown;
+  background-color: aliceblue;
+}
+
+div .dua {
+  color: azure;
+  background-color: aquamarine;
+} */
+
+/* || CHILD SELECTOR || */
+div > p {
+  color: burlywood;
 }
