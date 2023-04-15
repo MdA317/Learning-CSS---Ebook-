@@ -115,3 +115,15 @@ div + h2 {
 /* h2 ~ p {
   color: goldenrod;
 } */
+
+/* *|| PSEUDO CLASS ||* */
+
+/* || Dynamic Pseudo Class Selector || */
+/* || LINK || */
+
+:link {
+  color: black;
+}
+:visited {
+  color: aquamarine;
+}
