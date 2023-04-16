@@ -226,3 +226,23 @@ p:nth-of-type(7) {
 /* p:not(.tes) {
   color: orange;
 } */
+
+/* Pseudo Element Selector ::first-line */
+p::first-line {
+  color: yellowgreen;
+}
+
+/* Pseusdo Element Selector ::first-letter */
+/* p::first-letter {
+  color: salmon;
+  font-size: 2em;
+} */
+
+/* Pseusdo Element Selector ::before dan ::after */
+p::before {
+  content: "Sejarah";
+}
+
+P::after {
+  content: "Indonesia";
+}
