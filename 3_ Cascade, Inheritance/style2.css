@@ -1,0 +1,22 @@
+/* #h {
+  color: aquamarine;
+}
+#paragrafpertama {
+  color: red;
+}
+
+.paragraf {
+  color: blue;
+}
+
+p {
+  color: green;
+} */
+
+body p {
+  color: orange;
+}
+
+body #pertama {
+  color: red;
+}
