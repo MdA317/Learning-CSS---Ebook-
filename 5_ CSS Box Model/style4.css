@@ -23,7 +23,7 @@ p {
 
 /* PROPERTY PADDING */
 
-h2 {
+/* h2 {
   width: 200px;
   height: 30px;
   background-color: yellowgreen;
@@ -42,4 +42,124 @@ p {
   padding-top: 50px;
   padding-bottom: 1px;
   padding-left: 30px;
+} */
+
+/* BORDER RADIUS */
+
+/* .satu {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 20px;
+  line-height: 200px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  float: left;
+}
+
+.dua {
+  width: 200px;
+  height: 200px;
+  border: 3px solid sienna;
+  margin: 20px;
+  line-height: 200px;
+  text-align: center;
+  border-top-right-radius: 30px;
+  float: right;
+} */
+
+/* MARGIN PROPERTY */
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  background: url("bg_grid.png");
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  text-align: center;
+}
+
+.satu {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.dua {
+  margin: 0 0 30px 80px;
+}
+
+.tiga {
+  margin: 50px 0 20px 100px;
+} */
+
+/* latihan 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 500px;
+  height: 30px;
+  background-color: seagreen;
+  text-align: center;
+}
+
+.satu {
+  margin: 10px 10px 10px;
+}
+.dua {
+  margin: 10px 20px 10px;
+}
+.tiga {
+  margin: 10px 30px 10px;
+}
+.empat {
+  margin: 10px 40px 10px;
+}
+.lima {
+  margin: 10px 50px 10px;
+} */
+/* body {
+  background: url("bg_grid.png");
+} */
+
+/* MARGIN COLLAPSE */
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 500px;
+  height: 40px;
+  background-color: salmon;
+  text-align: center;
+}
+.satu {
+  margin: 20px;
+}
+.dua {
+  margin: 60px;
+} */
+
+/* MARGIN AUTO  */
+div {
+  width: 50%;
+  height: 50%;
+  border: solid 3px black;
+}
+.satu {
+  margin: 0 auto;
 }
