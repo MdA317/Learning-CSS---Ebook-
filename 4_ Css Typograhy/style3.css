@@ -1,4 +1,101 @@
 /* font-family */
-p {
+/* p {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+} */
+
+/* p.mm {
+  font-size: 7mm;
+}
+
+p.cm {
+  font-size: 1.2cm;
+}
+
+p.pt {
+  font-size: 16pt;
+}
+
+p.inch {
+  font-size: 0.3in;
+}
+
+p.pc {
+  font-size: 1.1pc;
+} */
+
+/* Text decoration */
+
+/* .satu {
+  text-decoration-line: line-through;
+  text-decoration-style: dotted;
+  text-decoration-color: salmon;
+}
+.dua {
+  text-decoration: overline;
+}
+.tiga {
+  text-decoration: line-through;
+}
+.empat {
+  text-decoration: underline overline;
+}
+.lima {
+  text-decoration: line-through underline overline none;
+}
+.enam {
+  text-decoration: none;
+} */
+
+/* Property text-transform */
+
+/* .satu {
+  text-transform: capitalize;
+}
+
+.dua {
+  text-transform: uppercase;
+}
+
+.tiga {
+  text-transform: lowercase;
+} */
+
+/* Property line-height */
+
+/* .satu {
+  line-height: 5.6em;
+  background-color: yellow;
+}
+
+.dua {
+  line-height: 200%;
+  background-color: seagreen;
+}
+
+.tiga {
+  line-height: 1.9;
+} */
+
+/* MARGIN-BOTTOM */
+/* .satu {
+  margin-bottom: 200px;
+  background-color: orange;
+}
+
+.dua {
+  margin-bottom: ;
+  background-color: slategray;
+} */
+
+/* PROPERTY LETTER-SPACING DAN WORD-SPACING */
+
+.satu {
+  letter-spacing: 1px;
+  background-color: orange;
+}
+
+.dua {
+  letter-spacing: 1em;
+  background-color: slategray;
 }
